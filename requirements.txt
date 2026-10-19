@@ -1,0 +1,8 @@
+gymnasium[toy-text,classic-control,box2d,mujoco]>=1.0.0
+imageio[ffmpeg]>=2.31.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+stable-baselines3>=2.3.0
+swig>=4.1.0
+tensorboard>=2.14.0
+torch>=2.0.0

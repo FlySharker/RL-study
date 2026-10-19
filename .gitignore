@@ -1,0 +1,36 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Experiment artifacts (keep locally)
+models/*
+!models/README.md
+logs/
+videos/
+*.pt
+*.pth
+*.pkl
+*.zip
+events.out.tfevents.*
+
+# Machine-specific settings and credentials
+.vscode/
+.idea/
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
